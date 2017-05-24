@@ -112,14 +112,7 @@ public class LauncherWindow {
 		String toConnect = servers.getValue();
 		ConcreteWeatherImp imp = new ConcreteWeatherImp (selection);
 		int  updateTime = 0;
-		//imp.setConn(null);
-
-
-        //ContreteTimelapseConnection timee = new ContreteTimelapseConnection(selection);
-
-        //MelbourneSoapTimelapse timeee = new ContreteTimelapseConnection(selection);
         ConnectionAdaptor  con = new ConnectionAdaptor(selection);
-        //con.setTimelapseConnection(timee);
         if (toConnect.equals("Melbourne Timelapse")){
             imp.setConn(con);
             updateTime = 2000;
@@ -127,18 +120,6 @@ public class LauncherWindow {
             imp.setConn(null);
             updateTime = 300000;
         }
-
-
-        System.out.println("_____________No adaptor__________________");
-		/*System.out.println(timee.timeLapseReading()[0]);
-        System.out.println(timee.timeLapseReading()[1]);
-        System.out.println(timee.timeLapseReading()[2]);*/
-       /* System.out.println("_____________With adaptor__________________");
-        System.out.println(con.geWeathertReading("Rainfall")[0]);
-        System.out.println(con.geWeathertReading("Rainfall")[1]);
-        System.out.println(con.geWeathertReading("Rainfall")[2]);*/
-
-
 		switch (weatherChoice){
 		case "All":
 			Weathers weathersAll = imp.createrWeather(weatherChoice);
