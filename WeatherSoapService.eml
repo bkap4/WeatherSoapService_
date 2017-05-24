@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0" scope="RUNTIME"/>
+	<lib name="org.eclipse.jst.j2ee.internal.web.container" scope="RUNTIME"/>
+	<lib name="org.eclipse.jst.j2ee.internal.module.container" scope="RUNTIME"/>
+	<levels>
+		<level name="WebContent" value="project"/>
+	</levels>
+</component>

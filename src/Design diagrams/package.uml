@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="315.3929197994987" y="225.701171875">WeatherAbstractFactory</node>
+    <node x="131.45968045112784" y="365.701171875">View.Windows</node>
+    <node x="51.5" y="225.701171875">Controller.Handler</node>
+    <node x="260.3257518796993" y="5.701171875">melbourneweathertimelapse</node>
+    <node x="532.3257518796993" y="5.701171875">melbourneweather2</node>
+    <node x="374.03101503759405" y="105.701171875">ConnectionInterface</node>
+    <node x="48.32575187969928" y="5.701171875">WeatherObserver</node>
+    <node x="419.5292293233084" y="455.701171875">Launch.Main</node>
+    <node x="98.07575187969928" y="105.701171875">Models</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="View.Windows" target="WeatherObserver">
+      <point x="-56.87500000000003" y="-15.0" />
+      <point x="139.5846804511278" y="345.701171875" />
+      <point x="0.0" y="345.701171875" />
+      <point x="0.0" y="85.701171875" />
+      <point x="69.82575187969928" y="85.701171875" />
+      <point x="-64.5" y="15.0" />
+    </edge>
+    <edge source="Models" target="WeatherObserver">
+      <point x="0.0" y="-15.0" />
+      <point x="158.07575187969928" y="85.701171875" />
+      <point x="155.82575187969928" y="85.701171875" />
+      <point x="21.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9450381679389313" x="323.86510500807753" y="179.08723747980616" />
+  <SelectedNodes>
+    <node>WeatherObserver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
